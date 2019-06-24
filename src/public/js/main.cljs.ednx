@@ -1,0 +1,4 @@
+{:require [myproject.core]
+ :init-fns []
+ :compiler-options {:asset-path "/js/main.out"}}
+ 
