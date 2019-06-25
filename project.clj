@@ -2,14 +2,12 @@
   boot-project
   "0.0.0-SNAPSHOT"
   :repositories
-  [["clojars" {:url "https://clojars.org/repo/"}]
+  [["clojars" {:url "https://repo.clojars.org/"}]
    ["maven-central" {:url "https://repo1.maven.org/maven2"}]]
   :dependencies
-  [[org.clojure/clojure "1.10.1" :scope "provided"]
-   [org.clojure/clojurescript "1.10.520"]
-   [adzerk/boot-cljs "2.1.5" :scope "test"]
+  [[adzerk/boot-cljs "1.7.228-2"]
    [onetom/boot-lein-generate "0.1.3" :scope "test"]]
   :source-paths
-  ["src"]
+  ["src/cljs"]
   :resource-paths
   ["resources"])
